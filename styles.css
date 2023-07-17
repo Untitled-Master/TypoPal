@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2d42; /* Colder dark blue background */
+    color: #a0c4ff; /* Colder blue text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.editor-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #4d5066; /* Colder darker blue container background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 98%;
+    min-height: 200px;
+    padding: 10px;
+    background-color: #6b6e86; /* Colder darker blue text area background */
+    border: none;
+    color: #f0f6fc; /* Colder lighter blue text color */
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #ffb86c; /* Colder yellow button background */
+    color: #2b2d42; /* Colder dark blue button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffca82; /* Warmer yellow button background on hover */
+    color: #2b2d42; /* Colder dark blue button text color on hover */
+}
+.github-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.2s; /* Add a transition for the transform property */
+}
+
+.github-link img {
+    width: 30px;
+    height: 30px;
+}
+
+.github-link:hover {
+    transform: translate(-5px, -5px); /* Move the image slightly to the top-left when hovering */
+}
